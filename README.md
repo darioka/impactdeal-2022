@@ -17,4 +17,4 @@ This repository contains all code and materials used for the Data Science and Ma
 
 ### Jupyter Notebooks
 
-* [01_introduction.ipynb](https://github.com/darioka/impactdeal-2022/notebooks/blob/main/01_introduction.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/darioka/impactdeal-2022/notebooks/blob/main/01_introduction.ipynb)
+* [01_introduction.ipynb](https://github.com/darioka/impactdeal-2022/blob/main/notebooks/01_introduction.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/darioka/impactdeal-2022/blob/main/notebooks/01_introduction.ipynb)
