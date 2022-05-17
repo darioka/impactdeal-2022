@@ -1,9 +1,23 @@
 import pandas as pd
+import numpy as np
+
 
 def normalize_missing(df, columns):
     """
     Returns a copy of the input dataframe,
-    where known patterns for missing values are replaced with `None`.
+    where known patterns for missing values are replaced with `np.nan`.
+
+    Parameters
+    ----------
+
+    df (pd.DataFrame): input dataframe
+
+    columns (list): name of the columns where missing values will be checked
+
+    Returns
+    -------
+
+    df (pd.DataFrame)
     """
     
     missing_patterns = [
@@ -18,14 +32,26 @@ def normalize_missing(df, columns):
     new_df = df.copy()
     
     new_df[columns] = new_df[columns].applymap(
-        lambda x: None if any([str(x).lower().startswith(pattern) for pattern in missing_patterns]) else x)
+        lambda x: np.nan if any([str(x).lower().startswith(pattern) for pattern in missing_patterns]) else x)
     
     return new_df
 
 
 def clean_age_band(df):
     """Returns a copy of the input dataframe,
-    with a cleaned version of the column CONSTRUCTION_AGE_BAND"""
+    with a cleaned version of the column CONSTRUCTION_AGE_BAND
+
+    Parameters
+    ----------
+
+    df (pd.DataFrame): input dataframe
+
+    Returns
+    -------
+
+    df (pd.DataFrame)
+    """
+    
 
     df = df.copy()
    
@@ -72,7 +98,18 @@ def clean_age_band(df):
 
 def clean_floor_level(df):
     """Returns a copy of the input dataframe,
-    with a cleaned version of the column FLOOR_LEVEL"""
+    with a cleaned version of the column FLOOR_LEVEL
+    
+    Parameters
+    ----------
+
+    df (pd.DataFrame): input dataframe
+
+    Returns
+    -------
+
+    df (pd.DataFrame)
+    """
     
     def _clean(x):
         if x == "21st or above":
@@ -99,5 +136,32 @@ def clean_floor_level(df):
     df["FLOOR_LEVEL"] = df["FLOOR_LEVEL"].str.strip().str.lower().replace(
         {"ground": 0, "ground floor": 0, "-1": "basement"}).apply(_clean)
     
+    
+    return df
+
+
+def clean_mainheat(df):
+    """Returns a copy of the input dataframe,
+    with a cleaned version of the column MAIN_HEATING_CONTROLS
+    
+    Parameters
+    ----------
+
+    df (pd.DataFrame): input dataframe
+
+    Returns
+    -------
+
+    df (pd.DataFrame)
+    """
+
+    def _clean(x):
+        try:
+            return str(int(x))
+        except ValueError:
+            return np.nan
+    
+    df.copy()
+    df["MAIN_HEATING_CONTROLS"] = df["MAIN_HEATING_CONTROLS"].apply(_clean)
     
     return df
