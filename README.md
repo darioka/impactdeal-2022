@@ -37,13 +37,15 @@ The learning format is divided into four main areas:
 
 * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/darioka/impactdeal-2022/blob/main/notebooks/01_introduction.ipynb) [01_introduction.ipynb](https://github.com/darioka/impactdeal-2022/blob/main/notebooks/01_introduction.ipynb)
 
-* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/darioka/impactdeal-2022/blob/main/notebooks/02_exploration.ipynb) [02_exploration.ipynb](https://github.com/darioka/impactdeal-2022/blob/main/notebooks/02_exploration.ipynb)
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/darioka/impactdeal-2022/blob/main/notebooks/02_manipulation.ipynb) [02_manipulation.ipynb](https://github.com/darioka/impactdeal-2022/blob/main/notebooks/02_manipulation.ipynb)
 
-* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/darioka/impactdeal-2022/blob/main/notebooks/03_decision_trees.ipynb) [03_decision_trees.ipynb](https://github.com/darioka/impactdeal-2022/blob/main/notebooks/03_decision_trees.ipynb)
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/darioka/impactdeal-2022/blob/main/notebooks/03_exploration.ipynb) [03_exploration.ipynb](https://github.com/darioka/impactdeal-2022/blob/main/notebooks/03_exploration.ipynb)
 
-* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/darioka/impactdeal-2022/blob/main/notebooks/04_logistic_regression.ipynb) [04_logistic_regression.ipynb](https://github.com/darioka/impactdeal-2022/blob/main/notebooks/04_logistic_regression.ipynb)
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/darioka/impactdeal-2022/blob/main/notebooks/04_decision_trees.ipynb) [04_decision_trees.ipynb](https://github.com/darioka/impactdeal-2022/blob/main/notebooks/04_decision_trees.ipynb)
 
-* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/darioka/impactdeal-2022/blob/main/notebooks/05_ensemble.ipynb) [05_ensemble.ipynb](https://github.com/darioka/impactdeal-2022/blob/main/notebooks/05_ensemble.ipynb)
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/darioka/impactdeal-2022/blob/main/notebooks/05_logistic_regression.ipynb) [05_logistic_regression.ipynb](https://github.com/darioka/impactdeal-2022/blob/main/notebooks/05_logistic_regression.ipynb)
+
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/darioka/impactdeal-2022/blob/main/notebooks/06_ensemble.ipynb) [06_ensemble.ipynb](https://github.com/darioka/impactdeal-2022/blob/main/notebooks/06_ensemble.ipynb)
 
 ### List of Notebooks (project)
 
