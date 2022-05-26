@@ -47,7 +47,7 @@ The learning format is divided into four main areas:
 
 * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/darioka/impactdeal-2022/blob/main/notebooks/06_ensemble.ipynb) [06_ensemble.ipynb](https://github.com/darioka/impactdeal-2022/blob/main/notebooks/06_ensemble.ipynb)
 
-### List of Notebooks (project)
+### List of Notebooks (Project)
 
 * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/darioka/impactdeal-2022/blob/main/notebooks/EPC_01_exploration.ipynb) [EPC_01_exploration.ipynb](https://github.com/darioka/impactdeal-2022/blob/main/notebooks/EPC_01_exploration.ipynb)
 
