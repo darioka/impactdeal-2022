@@ -1,0 +1,42 @@
+name	dbtype	description
+LMK_KEY	VARCHAR 64	Individual lodgement identifier. Guaranteed to be unique and can be used to identify a certificate in the downloads and the API.
+POSTCODE	VARCHAR 8	The postcode of the property
+BUILDING_REFERENCE_NUMBER	VARCHAR 12	Unique identifier for the property.
+PROPERTY_TYPE	VARCHAR 10	Describes the type of property such as House, Flat, Maisonette etc. This is the type differentiator for dwellings.
+BUILT_FORM	VARCHAR 20	The building type of the Property e.g. Detached, Semi-Detached, Terrace etc. Together with the Property Type, the Build Form produces a structured description of the property
+CONSTRUCTION_AGE_BAND	VARCHAR 31	Age band when building part constructed. England & Wales only. One of: before 1900; 1900-1929; 1930-1949; 1950-1966; 1967-1975; 1976-1982; 1983-1990; 1991-1995; 1996-2002; 2003-2006; 2007-2011; 2012 onwards.
+INSPECTION_DATE	DATE	The date that the inspection was actually carried out by the energy assessor
+TOTAL_FLOOR_AREA	DECIMAL	The total useful floor area is the total of all enclosed spaces measured to the internal face of the external walls, i.e. the gross floor area as measured in accordance with the guidance issued from time to time by the Royal Institute of Chartered Surveyors or by a body replacing that institution. (m²)
+ENERGY_TARIFF	VARCHAR 16	Type of electricity tariff for the property, e.g. single.
+MAINS_GAS_FLAG	VARCHAR 1	Whether mains gas is available. Yes means that there is a gas meter or a gas-burning appliance in the dwelling. A closed-off gas pipe does not count.
+FLOOR_LEVEL	VARCHAR 13	Flats and maisonettes only. Floor level relative to the lowest level of the property (0 for ground floor). If there is a basement, the basement is level 0 and the other floors are from 1 upwards
+FLAT_TOP_STOREY	VARCHAR 1	Whether the flat is on the top storey
+FLAT_STOREY_COUNT	INT	The number of storeys in the apartment block.
+MAIN_HEATING_CONTROLS	VARCHAR 19	Type of main heating controls. Includes both main heating systems if there are two.
+MULTI_GLAZE_PROPORTION	INT	The estimated banded range (e.g. 0% - 10%) of the total glazed area of the Property that is multiple glazed.
+GLAZED_TYPE	VARCHAR 45	The type of glazing. From British Fenestration Rating Council or manufacturer declaration, one of; single; double; triple.
+GLAZED_AREA	VARCHAR 22	Ranged estimate of the total glazed area of the Habitable Area.
+EXTENSION_COUNT	INT	The number of extensions added to the property. Between 0 and 4.
+NUMBER_HABITABLE_ROOMS	INT	Habitable rooms include any living room, sitting room, dining room, bedroom, study and similar; and also a non-separated conservatory. A kitchen/diner having a discrete seating area (with space for a table and four chairs) also counts as a habitable room. A non-separated conservatory adds to the habitable room count if it has an internal quality door between it and the dwelling. Excluded from the room count are any room used solely as a kitchen, utility room, bathroom, cloakroom, en-suite accommodation and similar and any hallway, stairs or landing; and also any room not having a window.
+NUMBER_HEATED_ROOMS	INT	The number of heated rooms in the property if more than half of the habitable rooms are not heated.
+LOW_ENERGY_LIGHTING	INT	The percentage of low energy lighting present in the property as a percentage of the total fixed lights in the property. 0% indicates that no low-energy lighting is present.
+NUMBER_OPEN_FIREPLACES	INT	The number of Open Fireplaces in the Property. An Open Fireplace is a fireplace that still allows air to pass between the inside of the Property and the outside.
+HOTWATER_DESCRIPTION	VARCHAR 95	Overall description of the property feature
+FLOOR_DESCRIPTION	VARCHAR 91	Overall description of the property feature
+WINDOWS_DESCRIPTION	VARCHAR 54	Overall description of the property feature
+WALLS_DESCRIPTION	VARCHAR 121	Overall description of the property feature
+SECONDHEAT_DESCRIPTION	VARCHAR 97	Overall description of the property feature
+ROOF_DESCRIPTION	VARCHAR 92	Overall description of the property feature
+MAINHEAT_DESCRIPTION	VARCHAR 134	Overall description of the property feature
+MAINHEATCONT_DESCRIPTION	VARCHAR 96	Overall description of the property feature
+LIGHTING_DESCRIPTION	VARCHAR 91	Overall description of property feature. Total number of fixed lighting outlets and total number of low-energy fixed lighting outlets
+MAIN_FUEL	VARCHAR 93	The type of fuel used to power the central heating e.g. Gas, Electricity
+WIND_TURBINE_COUNT	INT	Number of wind turbines; 0 if none.
+HEAT_LOSS_CORRIDOR	VARCHAR 17	Flats and maisonettes only. Indicates that the flat contains a corridor through which heat is lost. Heat loss corridor, one of: no corridor; heated corridor; unheated corridor
+UNHEATED_CORRIDOR_LENGTH	DECIMAL	The total length of unheated corridor in the flat. Only populated if flat or maisonette contains unheated corridor. If unheated corridor, length of sheltered wall (m²).
+FLOOR_HEIGHT	DECIMAL	Average height of the storey in metres.
+SOLAR_WATER_HEATING_FLAG	VARCHAR 1	Indicates whether the heating in the Property is solar powered.
+MECHANICAL_VENTILATION	VARCHAR 30	Identifies the type of mechanical ventilation the property has. This is required for the RdSAP calculation.
+FIXED_LIGHTING_OUTLETS_COUNT	INT	The number of fixed lighting outlets.
+LOW_ENERGY_FIXED_LIGHT_COUNT	INT	The number of low-energy fixed lighting outlets.
+CURRENT_ENERGY_RATING	VARCHAR 8	Current energy rating converted into a linear 'A to G' rating (where A is the most energy efficient and G is the least energy efficient)
