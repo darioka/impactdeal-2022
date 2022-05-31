@@ -55,3 +55,7 @@ The learning format is divided into four main areas:
 * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/darioka/impactdeal-2022/blob/main/notebooks/EPC_01_exploration.ipynb) [EPC_01_exploration.ipynb](https://github.com/darioka/impactdeal-2022/blob/main/notebooks/EPC_01_exploration.ipynb)
 
 * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/darioka/impactdeal-2022/blob/main/notebooks/EPC_02_decision_tree.ipynb) [EPC_02_decision_tree.ipynb](https://github.com/darioka/impactdeal-2022/blob/main/notebooks/EPC_02_decision_tree.ipynb)
+
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/darioka/impactdeal-2022/blob/main/notebooks/EPC_03_boosting.ipynb) [EPC_03_boosting.ipynb](https://github.com/darioka/impactdeal-2022/blob/main/notebooks/EPC_03_boosting.ipynb)
+
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/darioka/impactdeal-2022/blob/main/notebooks/EPC_04_engineering.ipynb) [EPC_04_engineering.ipynb](https://github.com/darioka/impactdeal-2022/blob/main/notebooks/EPC_04_engineering.ipynb)
