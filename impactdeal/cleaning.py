@@ -68,6 +68,9 @@ def clean_age_band(df):
         # cannot trust dates after 2007, as there is a collective category "2007 onwards"
         if x in ["2012 onwards", "2007-2011"]:
             return "2007 onwards"
+        elif x == "before 1900":
+            return "1899 and earlier"
+
         try:
             x = int(x)
         except ValueError:
@@ -76,7 +79,7 @@ def clean_age_band(df):
             return x
 
         if x < 1900:
-            return "before 1900"
+            return "1899 and earlier"
         if x < 1930:
             return "1900-1929"
         if x < 1950:
@@ -252,7 +255,6 @@ class Cleaner(TransformerMixin, BaseEstimator):
         ]
         # drop variables with informative content similar to other features
         columns_to_drop += [
-            "FIXED_LIGHTING_OUTLETS_COUNT",
             "LOW_ENERGY_FIXED_LIGHT_COUNT",
         ]
 

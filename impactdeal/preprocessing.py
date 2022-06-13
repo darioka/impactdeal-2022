@@ -149,7 +149,7 @@ class RoomsImputer(TransformerMixin, BaseEstimator):
     """
 
     _x_cols = ["TOTAL_FLOOR_AREA"]
-    _y_cols = ["NUMBER_HABITABLE_ROOMS", "NUMBER_HEATED_ROOMS"]
+    _y_cols = ["NUMBER_HABITABLE_ROOMS", "NUMBER_HEATED_ROOMS", "FIXED_LIGHTING_OUTLETS_COUNT"]
 
     def fit(self, X, y=None):
         """
